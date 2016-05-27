@@ -1,0 +1,17 @@
+{% extends '../comm/layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="./css/index.scss">
+<script type="text/javascript">
+	require.async('./js/index', function (page) {
+		page.init();
+	});
+</script>
+{% endblock %}
+
+{% block content %}
+<section class="page-index">
+	content...
+	<input type="button" value="Click Me" class="js-btn">
+</section>
+{% endblock %}

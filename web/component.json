@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "github:fis-components/jquery@2.2.3",
+    "github:fis-components/vue@1.0.21"
+  ]
+}
