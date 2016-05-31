@@ -1,6 +1,6 @@
-#web项目组件化开发实践
+# web项目组件化开发实践
 
-##运行此Demo
+## 运行此Demo
 ```javascript
   // 进入子系统
   cd webProject-demo/web
@@ -14,3 +14,5 @@
   // 启动fis3内置node服务器浏览
   fis3 server start
 ```
+## 运行结果
+ ![image](./docs/assets/demo.png)
