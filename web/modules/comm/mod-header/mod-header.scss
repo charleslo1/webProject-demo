@@ -1,4 +1,18 @@
 .mod-header {
 	min-height: 80px;
-	background: red;
+	background: #000;
+
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.site-logo {
+		margin: 10px 0;
+    	display: inline-block;
+
+    	img {
+    		width: 160px;
+    	}
+	}
 }

@@ -1,4 +1,14 @@
 .page-index {
-	min-height: 400px;
-	background: green;
+	min-height: 600px;
+	background: #ccc;
+
+	.btn-join {
+		padding: 8px 25px;
+		border: 1px solid #000;
+		background-color: black;
+		color: #fff;
+		border-radius: 3px;
+		font-size: 14px;
+		margin: 5px;
+	}
 }

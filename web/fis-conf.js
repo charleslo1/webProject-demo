@@ -48,7 +48,7 @@ fis.match('/views/**.{js,json,css,scss,png,jpg,gif}', {
 
 // 组件同名依赖
 fis.match('*.{html,js,php}', {
-  useSameNameRequire: false
+  useSameNameRequire: true
 });
 
 
@@ -104,8 +104,9 @@ fis.hook('commonjs', {
   // paths
   paths: {
     // path
-    'com': '/components/',
-    'mod': '/modules/',
+    'app': '/application/',
+    'coms': '/components/',
+    'mods': '/modules/',
     'util': '/application/js/util/',
     // file
     'jquery': '/components/jquery/jquery.js'
@@ -116,7 +117,7 @@ fis.match('*.js', {
   isMod: true
 });
 
-fis.match('/application/js/base/mod.js', {
+fis.match('/components/modjs/mod.js', {
   isMod: false
 });
 
@@ -202,7 +203,7 @@ fis.media('pub')
         '/application/**.{scss,css}'
       ],
       '/application/mod.js': [
-        '/application/js/base/mod.js'
+        '/components/modjs/mod.js'
       ],
       '/application/app.js': [
         '/application/**.js'
