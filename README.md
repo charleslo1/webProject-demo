@@ -1,6 +1,12 @@
 # web项目组件化开发实践
 
-## 运行此Demo
+## 环境准备
+```javascript
+  // 安装fis3及相关插件
+  npm install fis3 fis-parser-swig fis-parser-node-sass fis3-hook-commonjs fis3-postpackager-loader -g
+```
+
+## 运行Demo
 ```javascript
   // 进入子系统
   cd webProject-demo/web
